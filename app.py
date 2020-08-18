@@ -64,11 +64,11 @@ if not st.sidebar.checkbox('Close', True, key='1'):
 if st.sidebar.checkbox('Show raw data', False):
     st.write(modified_data)
 
-st.subheader('Breakdown airline tweets by sentiment')
 st.sidebar.subheader('Breakdown airline tweets by sentiment')
 choice = st.sidebar.multiselect('Pick airlines', ('US Airways', 'United', 'American', 'Southwest', 'Delta', 'Virgin America'), key=0)
 
 if len(choice) > 0:
+    st.subheader('Breakdown airline tweets by sentiment')
     choice_data = data[data.airline.isin(choice)]
     fig_choice = px.histogram(choice_data, x='airline', y='airline_sentiment', histfunc='count', color='airline_sentiment',
     facet_col='airline_sentiment', labels={'airline_sentiment':'tweets'}, height=600, width=800)
