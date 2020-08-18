@@ -64,6 +64,7 @@ if not st.sidebar.checkbox('Close', True, key='1'):
 if st.sidebar.checkbox('Show raw data', False):
     st.write(modified_data)
 
+st.subheader('Breakdown airline tweets by sentiment')
 st.sidebar.subheader('Breakdown airline tweets by sentiment')
 choice = st.sidebar.multiselect('Pick airlines', ('US Airways', 'United', 'American', 'Southwest', 'Delta', 'Virgin America'), key=0)
 
