@@ -11,6 +11,21 @@ st.sidebar.title("Sentiment Analysis of Tweets about US Airlines")
 st.markdown("This application is a Streamlit dashboard to analyze the sentiment of Tweets 🐦🐦")
 st.sidebar.markdown("This application is a Streamlit dashboard to analyze the sentiment of Tweets 🐦🐦")
 
+#Hide Footer
+hide_footer_style = """
+<style>
+.reportview-container .main footer {visibility: hidden;}    
+"""
+st.markdown(hide_footer_style, unsafe_allow_html=True)
+
+#Hide Developer Options
+hide_menu_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    </style>
+    """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
 DATA_URL = ('Tweets.csv')
 
 @st.cache(persist=True)
