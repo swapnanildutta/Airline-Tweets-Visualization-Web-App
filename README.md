@@ -1,6 +1,6 @@
 # Airline-Tweets-Visualization-Web-App
 
-[![HitCount](http://hits.dwyl.com/swapnanildutta/Airline-Tweets-Visualization-Web-App.svg)](http://hits.dwyl.com/swapnanildutta/Airline-Tweets-Visualization-Web-App)
+[![HitCount](https://hits.dwyl.com/swapnanildutta/Airline-Tweets-Visualization-Web-App.svg)](http://hits.dwyl.com/swapnanildutta/Airline-Tweets-Visualization-Web-App)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## How to use
