@@ -3,4 +3,4 @@ streamlit==0.84.1
 wordcloud==1.8.1
 plotly==4.14.3
 pandas==1.2.3
-numpy==1.20.2
+numpy==1.21.1
